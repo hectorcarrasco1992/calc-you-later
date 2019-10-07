@@ -25,6 +25,14 @@ if (operation === '+'){
     answer = realnum % realnum1
 }else if ( operation === 'mod'){
     answer = realnum % realnum1
+}else if ( operation === "added to"){
+    answer = realnum + realnum1
+}else if (operation === "subtracted from"){
+    answer = realnum - realnum1
+}else if (operation === "divided by"){
+    answer = realnum / realnum1
+}else if ( operation === "multiplied by"){
+    answer = realnum * realnum1
 }
     
 else answer = "Sorry, that's not a mathematical operation!"
