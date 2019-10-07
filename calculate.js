@@ -25,10 +25,10 @@ if (operation === '+'){
     answer = realnum % realnum1
 }else if ( operation === 'mod'){
     answer = realnum % realnum1
-}else answer = "Sorry, that's not a mathematical operation!"
-
-
-return answer
+}
+    
+else answer = "Sorry, that's not a mathematical operation!"
+    return answer
    }
 
 
