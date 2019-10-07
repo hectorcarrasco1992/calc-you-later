@@ -1,7 +1,7 @@
 const calculate = require('./calculate')
 
 let num =process.argv[2]
-let num1 =process.argv[4]
-let oper = process.argv [3] 
+let num1 =process.argv[3]
+let operation = process.argv[4] 
 
-console.log(calculate(num,num1,oper))
+console.log(calculate(num,operation,num1))
